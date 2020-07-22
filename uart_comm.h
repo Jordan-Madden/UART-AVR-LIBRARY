@@ -22,4 +22,4 @@ void		  uart_send(unsigned char);			  	//Sends a single character
 unsigned char uart_receive(void);						//Receives a single character
  
 
-#endif /* USART_COMM_H_ */
+#endif /* UART_COMM_H_ */
