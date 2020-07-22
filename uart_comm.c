@@ -50,9 +50,4 @@ void send_string(char *str)
 	}
 }
 
-void new_line(void)
-{
-	usart_send(CR);		//Send Carriage Return
-	usart_send(LF);		//Send Line Feed
-}
 
